@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Memory Game</title>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Sofia" rel="stylesheet">
+
+        <link rel="stylesheet" type="text/css" href="projecC.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.1.2/howler.js"></script>
+
+    </head>
+    
+<body>
+    
+    
+    
+    <nav class="navbar navbar-dark bg-dark navbar-expand-lg navbar-dark bg-light fixed-top">
+        <div class="container">
+  <a class="navbar-brand" href="#">Find Pairs <i class="fab fa-500px"></i></a>
+            </div>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      </ul>
+  </div>
+</nav>
+    <div class="jumbotron jumbotron-fluid p-0 y">
+        <div class="container d-flex justify-content-between">
+            <div class="pt-5">
+    <h1 class="display-4 text-info ty">Meomory Game</h1>
+    <p class="lead d-inline ty tr">this is a challenge to find the pairs</p>
+                </div>
+    <img class="d-inline"src="p1.png" width="300px" height="300px">
+            </div>
+  </div>
+    
+    
+    <div class=" container d-flex  justify-content-between">
+    <div class="nm bg-dark text-light border border-info  p-2 d-flex flex-column justify-content-around display-inline ">
+        <label for="sel"> Size OF Grid</label>
+        <select id ="sel" class="se d-inline" >
+          <option value="6*6">6*6</option>
+          <option value="6*7">6*7</option>
+          <option value="6*8">6*8</option>
+          <option value="6*9">6*9</option>
+          <option value="6*10">6*10</option>
+          <option value="7*8">7*8</option>
+          <option value="7*10">7*10</option>
+          <option value="8*9">8*9</option>
+          <option value="8*10">8*10</option>
+          <option value="9*10">9*10</option>
+          <option value="10*10">10*10</option>
+        </select>
+        <label for="tim">time</label>
+        <select id="tim" class="se">
+        <option value="0">without time</option>
+        <option value="4">20 minute</option>
+        <option value="3">15 minute</option>
+        <option value="2">10 minute</option>
+        <option value="1">5 minute</option>
+
+        </select>
+        <button class="btn btn-lg btn-dark " id="Apply">Apply</button>
+    </div>
+            <span class="SS d-none">WELL DONE !!!!</span>
+
+        </div>
+    <p id="sac" class="d-none text-center iss">score : <span id="mod">0</span></p>
+    <div id="con">
+    </div>
+ 
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+   <script type="text/javascript" src="projectJ.js"></script>
+</body>
+</html>

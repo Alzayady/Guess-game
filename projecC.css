@@ -1,0 +1,53 @@
+.nm{
+    max-width: 350px;
+    height: 200px;
+}
+.hid{
+    display: none;
+}
+.fin{
+    border: 2px solid black;
+    width:100px;
+    height=40px;
+    border-radius:2px;
+    margin-top:20px; 
+}
+.fin:hover{
+    border: 2px solid red;
+    background-color: grey;
+}
+.iss{
+    color:green;
+    font-size:20px;
+}
+.SS{
+    font-size: 50px;
+    color: red;
+    
+}
+body{
+    padding-top: 50px;
+}
+.ty{
+    font-family: 'Sofia', cursive;
+}
+.se{
+    width: 300px;
+}
+.y{
+    background-image: url(wall.jpg);
+}
+.tr{
+    color: red;
+}
+.gett{
+    font-size: 20px;
+    display: inline;
+    
+}
+button:focus{
+    border: none;
+}
+button:hover{
+    background-color: aquamarine;
+}
